@@ -1,5 +1,26 @@
 # firebase
 
+## 10.7.0
+
+### Minor Changes
+
+- [`bebecdaad`](https://github.com/firebase/firebase-js-sdk/commit/bebecdaad7fa552505055ab7705da478203078b6) [#7705](https://github.com/firebase/firebase-js-sdk/pull/7705) - Replaced node-fetch v2.6.7 dependency with the latest version of undici (v5.26.5) in Node.js SDK
+  builds for auth, firestore, functions and storage.
+
+### Patch Changes
+
+- Updated dependencies [[`bebecdaad`](https://github.com/firebase/firebase-js-sdk/commit/bebecdaad7fa552505055ab7705da478203078b6)]:
+  - @firebase/app@0.9.24
+  - @firebase/auth-compat@0.5.0
+  - @firebase/firestore@4.4.0
+  - @firebase/functions@0.11.0
+  - @firebase/storage@0.12.0
+  - @firebase/auth@1.5.0
+  - @firebase/app-compat@0.2.24
+  - @firebase/storage-compat@0.3.3
+  - @firebase/firestore-compat@0.3.23
+  - @firebase/functions-compat@0.3.6
+
 ## 10.6.0
 
 ### Minor Changes
